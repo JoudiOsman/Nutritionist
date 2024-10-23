@@ -9,5 +9,5 @@ def remove_duplicates(file_name):
     with open(file_name, 'w') as file:
         file.writelines(unique_lines)
 
-# Call the function on the 'backup.txt' file
+# swap 'backUpList' with relevant name
 remove_duplicates('backUplist.txt')
